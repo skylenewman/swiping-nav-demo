@@ -1,0 +1,41 @@
+body {
+  margin:0px;
+  padding:0px;
+  font-family:'Montserrat',sans-serif;
+}
+  #left-hotspot, #right-hotspot {
+    /*background-color:#333;*/
+    height:100%;
+    position:fixed;
+    width:100px;
+  }
+  #left-menu, #right-menu {
+    background: #d01a70; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#d01a70, #b60e5d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#d01a70, #b60e5d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#d01a70, #b60e5d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#d01a70, #b60e5d); /* Standard syntax */
+    height:100%;
+    position: fixed;
+    width:0px;
+    overflow: hidden;
+  }
+  #right-hotspot, #right-menu {
+    right:0px;
+  }
+  #left-menu ul {
+    list-style:none;
+    padding:0px;
+  }
+  #left-menu li {
+    border:rgba(0,0,0,0.1) solid 1px;
+    margin:2px;
+  }
+  #left-menu li a {
+    padding:20px;
+    display: block;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:1.3em;
+  }
